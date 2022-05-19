@@ -22,7 +22,7 @@ unzip nrwl-coding-assignment-react.zip
 cd nrwl-coding-assignment-react-main
 ```
 
-Then install the packages and you're good to go!
+Then install the packages, and you're good to go!
 
 ```bash
 yarn
@@ -43,11 +43,6 @@ Build a ticket managing app, where the user can _add_, _filter_ (by status), _as
   1. the list screen and
   2. the details screen.
 
-  Please use the React Router to manage the transitions between them.
-
-- RxJS is used for the backend service. Knowledge of RxJS is a bonus, but we understand that not all React developers
-  are familiar with it, so you are free to convert observables to promises if you choose to.
-
 - You can use any state management library you want (or none at all). e.g. Redux, MobX, or just React context.
 
 - Write a couple of tests. The goal here is not to build a production-quality app, so don't test every single detail.
@@ -55,6 +50,12 @@ Build a ticket managing app, where the user can _add_, _filter_ (by status), _as
 
 - Don't forget about error handling and race conditions. The API server has a random delay. If you bump it up to say 10
   seconds, would the app still work correctly?
+
+### Server / API
+
+The server application is available at http://localhost:4200/api when you run `yarn start`.
+
+Please see the [API docs here](./server/README.md).
 
 ## Submitting your solution
 
